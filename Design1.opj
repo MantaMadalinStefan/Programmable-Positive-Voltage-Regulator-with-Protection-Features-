@@ -1,0 +1,212 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\users\mms\downloads\zpd5.6\zpd5.6_spice.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\mms\downloads\zpd5.1\zpd5.1_spice.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\mms\downloads\zpd8.2\zpd8.2_spice.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\mms\downloads\bc337-40\bc337-40_spice.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\mms\downloads\bc327-40\bc327-40_spice.lib"
+        (Type "EDIF Netlist")))
+    (NoModify)
+    (File ".\design1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File ".\design1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (V_SINUSOIDAL
+      (FullPartName "V_SINUSOIDAL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\PSPICE_ELEM.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BZX55C2V7
+      (FullPartName "BZX55C2V7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (BZX55C5V6
+      (FullPartName "BZX55C5V6.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (BZX55C8V2
+      (FullPartName "BZX55C8V2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (BZX55C5V1
+      (FullPartName "BZX55C5V1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (BC327_40
+      (FullPartName "BC327_40.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\BJP.OLB")
+      (DeviceIndex "0"))
+    (BC337_40
+      (FullPartName "BC337_40.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\BJN.OLB")
+      (DeviceIndex "0"))
+    (BC337-40
+      (FullPartName "BC337-40.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (BC327-40
+      (FullPartName "BC327-40.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (BC546B
+      (FullPartName "BC546B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\BJN.OLB")
+      (DeviceIndex "0"))
+    (BC546
+      (FullPartName "BC546.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (ZPD2V7
+      (FullPartName "ZPD2V7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (BD241C
+      (FullPartName "BD241C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRBJT.OLB")
+      (DeviceIndex "0"))
+    (BC337
+      (FullPartName "BC337.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON_S_AFBJT.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BC327
+      (FullPartName "BC327.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON_S_AFBJT.OLB")
+      (DeviceIndex "0"))
+    (ZPD4V7
+      (FullPartName "ZPD4V7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "MMS")
+  (LastUsedLibraryBrowseDirectory "C:\Users\MMS\Downloads\zpd5.1")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\MMS\Desktop\PR1_Madalin-Stefan_Manta_432Fa\design1.dsn")
+      (Path "Design Resources"
+         "C:\Users\MMS\Desktop\PR1_Madalin-Stefan_Manta_432Fa\design1.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\MMS\Desktop\PR1_Madalin-Stefan_Manta_432Fa\design1.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-254 -5")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "C:\USERS\MMS\DESKTOP\PR1_MADALIN-STEFAN_MANTA_432FA\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (Folder "PSpice Resources"
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\design1-pspicefiles\schematic1\sim1.sim"
+        (DisplayName "SCHEMATIC1-SIM1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\design1-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-Simulare")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\design1-pspicefiles\schematic1\simulare.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "c:\users\mms\downloads\zpd5.6\zpd5.6_spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\mms\downloads\zpd5.6\zpd5.6_spice.lib"))
+      (File "c:\users\mms\downloads\zpd5.1\zpd5.1_spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\mms\downloads\zpd5.1\zpd5.1_spice.lib"))
+      (File "c:\users\mms\downloads\zpd8.2\zpd8.2_spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\mms\downloads\zpd8.2\zpd8.2_spice.lib"))
+      (File "c:\users\mms\downloads\bc337-40\bc337-40_spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\mms\downloads\bc337-40\bc337-40_spice.lib"))
+      (File "c:\users\mms\downloads\bc327-40\bc327-40_spice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "c:\users\mms\downloads\bc327-40\bc327-40_spice.lib")))))
